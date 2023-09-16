@@ -1,0 +1,165 @@
+body {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    /* padding-left: 32px;
+    padding-right: 32px; */
+}
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.first .content .hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.first .content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-img {
+    flex-shrink: 0;
+    border: 2px solid white;
+    height: 100%;
+    width: 400px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    /* flex: 0 0 auto; */
+    width: 125px;
+    height: 45px;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.second > p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.third {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third blockquote footer {
+    align-self: flex-end;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.fourth {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 32px;
+}
+
+.action {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.fourth .modal .block p {
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+#page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
