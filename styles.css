@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 128px;
+    padding-left: 320px;
     padding-right: 128px;
 }
 
@@ -66,6 +66,7 @@ a {
     border: 2px solid white;
     height: 100%;
     flex-basis: 400px;
+    color: #fff;
 }
 
 button {
