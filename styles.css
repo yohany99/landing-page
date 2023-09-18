@@ -1,6 +1,8 @@
 body {
     max-width: 100vw;
     display: flex;
+    padding: 0;
+    margin: 0;
     flex-direction: column;
 }
 
@@ -9,8 +11,8 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    /* padding-left: 32px;
-    padding-right: 32px; */
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 header p {
@@ -44,7 +46,7 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    flex-basis: 400px;
 }
 
 .first .content .hero {
@@ -63,7 +65,7 @@ a {
     flex-shrink: 0;
     border: 2px solid white;
     height: 100%;
-    width: 400px;
+    flex-basis: 400px;
 }
 
 button {
@@ -72,7 +74,8 @@ button {
     color: #E5E7EB;
     padding: 8px 16px;
     background-color: #3882F6;
-    /* flex: 0 0 auto; */
+    /* border: 2px solid #fff; */
+    border-radius: 8px;
     width: 125px;
     height: 45px;
 }
@@ -138,6 +141,7 @@ blockquote {
     display: flex;
     justify-content: space-evenly;
     background-color: #3882F6;
+    border-radius: 8px;
     width: 800px;
     padding: 32px;
 }
@@ -147,6 +151,10 @@ blockquote {
     color: #E5E7EB;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+.bottom-button {
+    border: 2px solid #fff;
 }
 
 .fourth .modal .block p {
